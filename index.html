@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>We Monkey Marketing</title>
+<meta name="description" content="We Monkey Marketing is a local search agency in Durham, North Carolina. Google Maps and Apple Maps ranking, local SEO, Local Services Ads and fast websites for service businesses.">
+<meta property="og:title" content="We Monkey Marketing">
+<meta property="og:description" content="Google Maps and Apple Maps ranking, local SEO, Local Services Ads and fast websites for local service businesses.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://wemonkeymarketing.com/">
+<link rel="canonical" href="https://wemonkeymarketing.com/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath d='M32 3C18.2 3 7 14 7 27.6 7 45 32 61 32 61s25-16 25-33.4C57 14 45.800 3 32 3z' fill='%230f2a1f'/%3E%3Ccircle cx='17.500' cy='27' r='5.500' fill='%23f2c230'/%3E%3Ccircle cx='46.500' cy='27' r='5.500' fill='%23f2c230'/%3E%3Ccircle cx='32' cy='27' r='13.500' fill='%23f2c230'/%3E%3Ccircle cx='27' cy='24.500' r='6' fill='%23fbf6e4'/%3E%3Ccircle cx='37' cy='24.500' r='6' fill='%23fbf6e4'/%3E%3Cellipse cx='32' cy='31.500' rx='9' ry='6.800' fill='%23fbf6e4'/%3E%3Ccircle cx='27.800' cy='25.500' r='1.900' fill='%230f2a1f'/%3E%3Ccircle cx='36.200' cy='25.500' r='1.900' fill='%230f2a1f'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ProfessionalService","name":"We Monkey Marketing","url":"https://wemonkeymarketing.com/","description":"Local search agency: Google Maps and Apple Maps ranking, local SEO, Local Services Ads and websites for service businesses.","telephone":"+1-786-591-7027","email":"office@wemonkeymarketing.com","address":{"@type":"PostalAddress","addressLocality":"Durham","addressRegion":"NC","addressCountry":"US"},"areaServed":"US"}
+</script>
+<style>
+/* Layout idea: dark canopy hero with a live map-rank grid, then paper sections split by one banana band. */
+:root{
+  --ink:#0f2a1f;        /* canopy green, text and dark surfaces */
+  --ink-2:#17382a;      /* raised dark surface */
+  --leaf:#2f7d55;       /* mid green, links and good-state */
+  --banana:#f2c230;     /* the one accent */
+  --paper:#f4f3ea;      /* page background, biased toward the accent */
+  --card:#fffef8;
+  --line:#d9d8c8;
+  --muted:#55655c;
+  --cream:#fbf6e4;
+  --bad:#d8553a; --mid:#e9a12c; --good:#3fa56b;
+  --display:"Bricolage Grotesque","Arial Narrow",Arial,sans-serif;
+  --body:"Figtree",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+  --wrap:1120px;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+img,svg{max-width:100%}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--banana);outline-offset:3px;border-radius:6px}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:var(--display);line-height:1.04;margin:0;text-wrap:balance;letter-spacing:-.02em}
+h1{font-size:clamp(2.6rem,6.4vw,5rem);font-weight:800}
+h2{font-size:clamp(2rem,4.2vw,3.1rem);font-weight:800}
+h3{font-size:1.3rem;font-weight:700;letter-spacing:-.01em}
+p{margin:0}
+.eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--leaf)}
+.btn{display:inline-flex;align-items:center;gap:10px;font:700 1rem var(--body);padding:15px 24px;border-radius:999px;text-decoration:none;border:2px solid transparent;cursor:pointer;transition:transform .15s ease,background .15s ease}
+.btn:hover{transform:translateY(-2px)}
+.btn-primary{background:var(--banana);color:var(--ink)}
+.btn-ghost{border-color:rgba(251,246,228,.35);color:var(--cream)}
+.btn-dark{background:var(--ink);color:var(--cream)}
+
+/* Header */
+.top{background:var(--ink);color:var(--cream)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:18px 0;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+.brand svg{width:44px;height:44px;flex:none}
+.brand-name{display:flex;flex-direction:column;line-height:1}
+.brand-name b{font-family:var(--display);font-weight:800;font-size:1.45rem;letter-spacing:-.03em}
+.brand-name b i{font-style:normal;color:var(--banana)}
+.brand-name span{font-size:.62rem;font-weight:700;letter-spacing:.34em;text-transform:uppercase;opacity:.75;margin-top:5px}
+.links{display:flex;align-items:center;gap:26px;flex-wrap:wrap;font-weight:600;font-size:.95rem}
+.links a{text-decoration:none;opacity:.85}
+.links a:hover{opacity:1}
+.links a.phone{opacity:1;color:var(--banana);font-weight:700;font-variant-numeric:tabular-nums}
+.links .btn{padding:10px 18px;opacity:1}
+
+/* Hero */
+.hero{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center;padding:56px 0 84px}
+.hero .eyebrow{color:var(--banana)}
+.hero h1{margin:18px 0 22px}
+.hero h1 em{font-style:normal;color:var(--banana)}
+.lede{font-size:1.2rem;max-width:34em;color:rgba(251,246,228,.82)}
+.cta{display:flex;gap:14px;flex-wrap:wrap;margin-top:32px}
+.scan{background:var(--ink-2);border:1px solid rgba(251,246,228,.12);border-radius:22px;padding:22px}
+.scan-head{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:16px}
+.scan-head p{font-weight:700;font-size:.95rem}
+.scan-head small{display:block;font-weight:500;opacity:.65;font-size:.8rem}
+.toggle{display:inline-flex;background:rgba(0,0,0,.28);border-radius:999px;padding:4px}
+.toggle button{font:700 .82rem var(--body);color:var(--cream);background:none;border:0;padding:8px 16px;border-radius:999px;cursor:pointer}
+.toggle button[aria-pressed="true"]{background:var(--banana);color:var(--ink)}
+.grid{display:grid;grid-template-columns:repeat(7,1fr);gap:7px;padding:14px;border-radius:14px;
+  background:
+   linear-gradient(rgba(251,246,228,.05) 1px,transparent 1px) 0 0/100% 25%,
+   linear-gradient(90deg,rgba(251,246,228,.05) 1px,transparent 1px) 0 0/25% 100%,
+   #0c2219}
+.dot{aspect-ratio:1;border-radius:50%;display:grid;place-items:center;font:700 clamp(.6rem,1.5vw,.85rem) var(--body);font-variant-numeric:tabular-nums;color:#fff;transition:background .5s ease,transform .5s ease}
+.dot.g{background:var(--good)} .dot.m{background:var(--mid);color:var(--ink)} .dot.b{background:var(--bad)}
+.dot.pin{outline:3px solid var(--cream);outline-offset:2px}
+.scan-foot{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-top:14px;font-size:.8rem;opacity:.75}
+.key{display:flex;gap:14px;flex-wrap:wrap}
+.key i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px}
+
+/* Sections */
+section{padding:88px 0}
+.sec-head{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:end;margin-bottom:44px}
+.sec-head h2{margin-top:12px}
+.sec-head p.note{color:var(--muted);max-width:36em}
+.services{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:2px solid var(--ink);border-left:1px solid var(--line)}
+.svc{padding:30px 26px 34px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--card);display:flex;flex-direction:column;gap:12px}
+.svc:last-child{grid-column:1/-1}
+.svc svg{width:34px;height:34px;color:var(--leaf)}
+.svc p{color:var(--muted);font-size:.98rem}
+.svc ul{margin:4px 0 0;padding:0;list-style:none;font-size:.9rem;font-weight:600;display:flex;flex-wrap:wrap;gap:6px}
+.svc li{background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:3px 11px}
+
+.band{background:var(--banana);padding:64px 0}
+.band-in{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center}
+.band h2{font-size:clamp(1.9rem,3.8vw,2.8rem)}
+.band p{font-size:1.1rem;max-width:32em}
+.trades{display:flex;flex-wrap:wrap;gap:10px;list-style:none;margin:0;padding:0}
+.trades li{background:var(--ink);color:var(--cream);font-weight:600;padding:9px 16px;border-radius:999px;font-size:.95rem}
+
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;counter-reset:s;list-style:none;margin:0;padding:0}
+.steps li{counter-increment:s;border-top:2px solid var(--ink);padding-top:18px;display:flex;flex-direction:column;gap:10px}
+.steps li::before{content:"0" counter(s);font:800 2.4rem var(--display);color:var(--leaf);line-height:1}
+.steps p{color:var(--muted);font-size:.97rem}
+
+.why{background:var(--ink);color:var(--cream)}
+.why .eyebrow{color:var(--banana)}
+.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:44px}
+.why-grid div{background:var(--ink-2);border:1px solid rgba(251,246,228,.1);border-radius:18px;padding:26px;display:flex;flex-direction:column;gap:10px}
+.why-grid p{color:rgba(251,246,228,.75);font-size:.98rem}
+
+.faq{display:grid;grid-template-columns:.8fr 1.2fr;gap:56px}
+details{border-bottom:1px solid var(--line);padding:18px 0}
+details:first-of-type{border-top:2px solid var(--ink)}
+summary{font:700 1.12rem var(--display);cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:16px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-size:1.5rem;line-height:1;color:var(--leaf)}
+details[open] summary::after{content:"\2212"}
+details p{color:var(--muted);margin-top:10px;max-width:60ch}
+
+.contact{background:var(--card);border-top:1px solid var(--line)}
+.contact-in{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px}
+.contact h2{margin:12px 0 18px}
+.contact .mail{font:700 1.25rem var(--display);color:var(--leaf);word-break:break-word}
+form{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+label{display:flex;flex-direction:column;gap:6px;font-weight:600;font-size:.9rem}
+label.full{grid-column:1/-1}
+input,textarea{font:400 1rem var(--body);color:var(--ink);background:var(--paper);border:1.5px solid var(--line);border-radius:12px;padding:13px 14px;width:100%}
+input:focus,textarea:focus{border-color:var(--leaf);outline:none;box-shadow:0 0 0 3px rgba(47,125,85,.18)}
+textarea{min-height:120px;resize:vertical}
+form .btn{grid-column:1/-1;justify-self:start}
+#form-note{grid-column:1/-1;font-size:.92rem;color:var(--muted);min-height:1.4em}
+
+footer{background:var(--ink);color:rgba(251,246,228,.7);padding:40px 0;font-size:.9rem}
+.foot{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+.foot .brand{color:var(--cream)}
+
+@media (max-width:900px){
+  .hero,.sec-head,.band-in,.faq,.contact-in{grid-template-columns:1fr;gap:32px}
+  .hero{padding:36px 0 60px}
+  .services,.why-grid{grid-template-columns:1fr 1fr}
+  .steps{grid-template-columns:1fr 1fr}
+  section{padding:64px 0}
+}
+@media (max-width:600px){
+  .services,.why-grid,.steps,form{grid-template-columns:1fr}
+  .links a:not(.btn):not(.phone){display:none}
+  .wrap{padding:0 18px}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.dot,.btn{transition:none}}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <nav class="nav" aria-label="Main">
+      <a class="brand" href="#top" aria-label="We Monkey Marketing home">
+        <svg viewBox="0 0 64 64" role="img" aria-label="We Monkey Marketing logo">
+          <path d="M32 3C18.2 3 7 14 7 27.6 7 45 32 61 32 61s25-16 25-33.4C57 14 45.8 3 32 3z" fill="#f2c230"/>
+          <path d="M32 6.500C20.100 6.500 10.500 16 10.500 27.600c0 13.600 17.400 26.400 21.500 29.200 4.100-2.800 21.500-15.600 21.500-29.200C53.500 16 43.900 6.500 32 6.500z" fill="#0f2a1f"/>
+          <circle cx="18.500" cy="27" r="5" fill="#f2c230"/><circle cx="45.500" cy="27" r="5" fill="#f2c230"/>
+          <circle cx="32" cy="27" r="12.500" fill="#f2c230"/>
+          <circle cx="27.300" cy="24.800" r="5.600" fill="#fbf6e4"/><circle cx="36.700" cy="24.800" r="5.600" fill="#fbf6e4"/>
+          <ellipse cx="32" cy="31.300" rx="8.400" ry="6.300" fill="#fbf6e4"/>
+          <circle cx="28" cy="25.600" r="1.800" fill="#0f2a1f"/><circle cx="36" cy="25.600" r="1.800" fill="#0f2a1f"/>
+          <path d="M28.800 32.400q3.200 2.600 6.400 0" fill="none" stroke="#0f2a1f" stroke-width="1.600" stroke-linecap="round"/>
+        </svg>
+        <span class="brand-name"><b>We<i>Monkey</i></b><span>Marketing</span></span>
+      </a>
+      <div class="links">
+        <a href="#services">Services</a>
+        <a href="#process">How we work</a>
+        <a href="#faq">Questions</a>
+        <a class="phone" href="tel:+17865917027">(786) 591-7027</a>
+        <a class="btn btn-primary" href="#contact">Get a free audit</a>
+      </div>
+    </nav>
+
+    <div class="hero" id="top">
+      <div>
+        <p class="eyebrow">Local search agency · Durham, North Carolina</p>
+        <h1>Be the first name your city <em>calls</em>.</h1>
+        <p class="lede">We get local service businesses to the top of Google Maps, Apple Maps, organic search and Local Services Ads, then turn those searches into phone calls.</p>
+        <div class="cta">
+          <a class="btn btn-primary" href="#contact">Get a free audit</a>
+          <a class="btn btn-ghost" href="#services">See what we do</a>
+        </div>
+      </div>
+
+      <div class="scan" aria-label="Example map-rank grid scan">
+        <div class="scan-head">
+          <p>Map rank across your city<small>Keyword: “locksmith near me”</small></p>
+          <div class="toggle" role="group" aria-label="Show scan">
+            <button type="button" id="btn-before" aria-pressed="false">Before</button>
+            <button type="button" id="btn-after" aria-pressed="true">After</button>
+          </div>
+        </div>
+        <div class="grid" id="grid"></div>
+        <div class="scan-foot">
+          <span class="key"><span><i style="background:var(--good)"></i>Top 3</span><span><i style="background:var(--mid)"></i>4 to 10</span><span><i style="background:var(--bad)"></i>11+</span></span>
+          <span>Example for illustration, not a client result.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+<section id="services">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><p class="eyebrow">Services</p><h2>Everything between a search and a booked job.</h2></div>
+      <p class="note">Most local customers pick from the first three map results. Each service below moves you closer to those three spots, or makes more of the visitors you already get.</p>
+    </div>
+    <div class="services">
+      <article class="svc">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.800" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-5.200 7-11a7 7 0 1 0-14 0c0 5.800 7 11 7 11z"/><circle cx="12" cy="10" r="2.500"/></svg>
+        <h3>Google Maps ranking</h3>
+        <p>Business Profile setup and cleanup, categories, services, photos, posts and review replies, tracked with grid scans across your service area.</p>
+        <ul><li>Business Profile</li><li>Grid tracking</li><li>Reviews</li></ul>
+      </article>
+      <article class="svc">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.800" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4L3 6.500v13.500l6-2.500 6 2.500 6-2.500V4l-6 2.500L9 4z"/><path d="M9 4v13.500M15 6.500V20"/></svg>
+        <h3>Apple Maps ranking</h3>
+        <p>Your Apple Maps listing claimed, verified and filled in, so iPhone, Siri and CarPlay users find the right name, hours, photos and phone number.</p>
+        <ul><li>Listing claim</li><li>Siri and CarPlay</li><li>Photos and hours</li></ul>
+      </article>
+      <article class="svc">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.800" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="6.500"/><path d="M20 20l-4.200-4.200"/></svg>
+        <h3>Local SEO</h3>
+        <p>Technical fixes, one strong page per town you serve, clean internal links and content written by people who know the trade.</p>
+        <ul><li>Site audits</li><li>Town pages</li><li>Citations</li></ul>
+      </article>
+      <article class="svc">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.800" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5.500c0 4.300-2.900 7.800-7 9.500-4.100-1.700-7-5.200-7-9.500V6l7-3z"/><path d="M9 12l2.200 2.200L15.200 10"/></svg>
+        <h3>Local Services Ads</h3>
+        <p>Verification, profile build-out, bidding and lead disputes, so you pay per real lead and show above the map with the Google badge.</p>
+        <ul><li>Verification</li><li>Lead quality</li><li>Disputes</li></ul>
+      </article>
+      <article class="svc">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.800" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4.500" width="18" height="13" rx="2"/><path d="M3 8.500h18M9 21h6M12 17.500V21"/></svg>
+        <h3>Websites that load fast</h3>
+        <p>New builds and rebuilds on WordPress or lightweight static code, moved without losing the rankings you already earned.</p>
+        <ul><li>WordPress</li><li>Migrations</li><li>Speed</li></ul>
+      </article>
+      <article class="svc">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.800" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19V9M10 19V5M16 19v-7M21 19H3"/></svg>
+        <h3>Google Ads</h3>
+        <p>Search campaigns and landing pages built around calls, with tracking that shows which keywords produced paying jobs.</p>
+        <ul><li>Search ads</li><li>Landing pages</li><li>Call tracking</li></ul>
+      </article>
+      <article class="svc">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.800" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.600 5.600l2.100 2.100M16.300 16.300l2.100 2.100M18.400 5.600l-2.100 2.100M7.700 16.300l-2.100 2.100"/><circle cx="12" cy="12" r="3"/></svg>
+        <h3>AI search visibility</h3>
+        <p>Clear answers, structured data and consistent business facts, so AI assistants and Google's AI results can find and name you.</p>
+        <ul><li>Schema</li><li>Answer content</li><li>Monitoring</li></ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<div class="band">
+  <div class="wrap band-in">
+    <div>
+      <h2>Built for businesses that live on the phone ringing.</h2>
+      <p style="margin-top:14px">Emergency and home-service trades win or lose on local search. That is the only kind of marketing we do.</p>
+    </div>
+    <ul class="trades">
+      <li>Locksmiths</li><li>Garage door repair</li><li>Auto key specialists</li><li>Plumbing</li><li>HVAC</li><li>Towing</li><li>Appliance repair</li><li>Multi-location brands</li>
+    </ul>
+  </div>
+</div>
+
+<section id="process">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><p class="eyebrow">How we work</p><h2>Four steps, in this order.</h2></div>
+      <p class="note">We fix what is broken before we build anything new. You see every change and what it did.</p>
+    </div>
+    <ol class="steps">
+      <li><h3>Audit</h3><p>We scan your map rankings, website, Business Profile, listings and ads account, and show you where the calls are leaking.</p></li>
+      <li><h3>Fix</h3><p>Wrong phone numbers, duplicate listings, slow pages, thin content and profile errors get corrected first.</p></li>
+      <li><h3>Build</h3><p>Town pages, service pages, reviews, photos and ads go live on a steady schedule you approve.</p></li>
+      <li><h3>Report</h3><p>Each month you get rank grids, calls and leads next to what we changed, in plain language.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="why">
+  <div class="wrap">
+    <p class="eyebrow">Why us</p>
+    <h2 style="max-width:16em;margin-top:12px">We run a local service business too.</h2>
+    <div class="why-grid">
+      <div><h3>Operators first</h3><p>Our team works in the locksmith trade in North Carolina. We know what a missed call costs and which jobs are worth chasing.</p></div>
+      <div><h3>Work you can check</h3><p>Rank scans, Search Console data and call logs. We report measurements, and we don't promise positions Google controls.</p></div>
+      <div><h3>You keep the keys</h3><p>Your domain, website, Business Profile and ad accounts stay in your name. If we part ways, everything stays with you.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap faq">
+    <div><p class="eyebrow">Questions</p><h2 style="margin-top:12px">Asked before every first call.</h2></div>
+    <div>
+      <details open><summary>How long until I see results?</summary><p>Profile and website fixes often show in map rankings within a few weeks. Competitive keywords in a large city take months of steady work. The audit tells you which situation you are in.</p></details>
+      <details><summary>Do you guarantee the number one spot?</summary><p>No. Google decides rankings, and anyone who guarantees a position is guessing. We commit to the work, the schedule and honest reporting.</p></details>
+      <details><summary>Do I need a new website?</summary><p>Usually not. Most sites need repairs and better pages. We rebuild only when the current site is holding rankings back.</p></details>
+      <details><summary>What does the free audit include?</summary><p>A map-rank grid for your main keyword, a Business Profile review, a website health check and a short list of the fixes with the most impact.</p></details>
+      <details><summary>Do you work outside North Carolina?</summary><p>Yes. We are based in Durham and work with service businesses across the United States.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap contact-in">
+    <div>
+      <p class="eyebrow">Free audit</p>
+      <h2>Tell us where you want to rank.</h2>
+      <p style="color:var(--muted);max-width:30em">Send your business name and website. We reply with your audit and a plan.</p>
+      <p style="margin-top:22px;font-size:.9rem;font-weight:600">Call us</p>
+      <p class="mail"><a href="tel:+17865917027" style="text-decoration:none">(786) 591-7027</a></p>
+      <p style="margin-top:16px;font-size:.9rem;font-weight:600">Or email us directly</p>
+      <p class="mail"><a href="mailto:office@wemonkeymarketing.com" style="text-decoration:none">office@wemonkeymarketing.com</a></p>
+    </div>
+    <form id="audit-form" novalidate>
+      <label>Your name<input id="f-name" name="name" autocomplete="name" required></label>
+      <label>Business name<input id="f-biz" name="business" autocomplete="organization" required></label>
+      <label>Email<input id="f-email" name="email" type="email" autocomplete="email" required></label>
+      <label>Website<input id="f-site" name="website" placeholder="yourbusiness.com"></label>
+      <label class="full">City and main service<input id="f-city" name="city" placeholder="Raleigh, garage door repair"></label>
+      <label class="full">Anything else we should know<textarea id="f-msg" name="message"></textarea></label>
+      <button class="btn btn-dark" type="submit">Request my audit</button>
+      <p id="form-note" role="status"></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <a class="brand" href="#top"><span class="brand-name"><b>We<i>Monkey</i></b><span>Marketing</span></span></a>
+    <span>Durham, North Carolina · (786) 591-7027 · office@wemonkeymarketing.com</span>
+    <span>© <span id="yr">2026</span> We Monkey Marketing</span>
+  </div>
+</footer>
+
+<script>
+(function(){
+  // Illustrative 7x7 rank grid: rank worsens with distance from the business pin at the centre.
+  var grid=document.getElementById('grid'),N=7,c=3,dots=[];
+  function rank(r,k,after){
+    var d=Math.sqrt((r-c)*(r-c)+(k-c)*(k-c)), j=((r*7+k*13)%5)-2;
+    var v=after?Math.round(1+Math.max(0,d-2.200)*2.200+(d>2.500?j*.5:0)):Math.round(3+d*4.600+j);
+    return Math.max(1,Math.min(v,20));
+  }
+  for(var r=0;r<N;r++)for(var k=0;k<N;k++){
+    var el=document.createElement('div');el.className='dot'+(r===c&&k===c?' pin':'');
+    grid.appendChild(el);dots.push({el:el,r:r,k:k});
+  }
+  var bB=document.getElementById('btn-before'),bA=document.getElementById('btn-after');
+  function show(after){
+    dots.forEach(function(d){
+      var v=rank(d.r,d.k,after);
+      d.el.textContent=v>=20?'20+':v;
+      d.el.className='dot '+(v<=3?'g':v<=10?'m':'b')+(d.r===c&&d.k===c?' pin':'');
+    });
+    bB.setAttribute('aria-pressed',String(!after));bA.setAttribute('aria-pressed',String(after));
+  }
+  bB.addEventListener('click',function(){show(false)});
+  bA.addEventListener('click',function(){show(true)});
+  var still=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(still){show(true)}else{show(false);setTimeout(function(){show(true)},1400)}
+
+  document.getElementById('yr').textContent=new Date().getFullYear();
+
+  // Contact form: opens the visitor's email app with the details filled in.
+  var form=document.getElementById('audit-form'),note=document.getElementById('form-note');
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    var g=function(id){return document.getElementById(id).value.trim()};
+    if(!g('f-name')||!g('f-biz')||!/^\S+@\S+\.\S+$/.test(g('f-email'))){
+      note.textContent='Please add your name, business name and a valid email.';return;
+    }
+    var body='Name: '+g('f-name')+'\nBusiness: '+g('f-biz')+'\nEmail: '+g('f-email')+'\nWebsite: '+g('f-site')+'\nCity and service: '+g('f-city')+'\n\n'+g('f-msg');
+    var href='mailto:office@wemonkeymarketing.com?subject='+encodeURIComponent('Free audit request: '+g('f-biz'))+'&body='+encodeURIComponent(body);
+    note.textContent='Your email app should open with the request ready to send. If it does not, call (786) 591-7027 or write to office@wemonkeymarketing.com.';
+    try{window.location.href=href}catch(err){}
+  });
+})();
+</script>
+</body>
+</html>
